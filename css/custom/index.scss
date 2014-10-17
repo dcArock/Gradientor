@@ -1,0 +1,247 @@
+#logo {
+	
+	position: absolute;
+	top: 5%;
+	left: 50%;
+	
+	z-index: 11;
+	
+}
+
+#logo, .menu-icon, .roll, .close {
+	
+	&:hover {
+	
+		transform: rotate(16deg);
+		animation-timing-function: ease-in-out;
+		
+	}
+	
+}
+
+#value {
+
+	.container	{
+		
+		text-align: center;
+		
+		background: rgba(0,0,0,.9);
+		
+		padding: 20px 10px;
+		
+		span {
+			
+			color: white;
+			
+		}
+		
+	}
+	
+}
+
+#menu {
+
+	position: absolute;
+//	bottom: 15%;
+//	left: 1%;
+	
+	overflow: hidden;
+	
+//	width: 280px;
+//	min-width: 200px;
+	
+	z-index: 88;
+	
+	.inline {
+		
+		background: rgba(255,255,255,1);
+//		position: relative;
+//		margin: auto;
+	}
+	
+	form {
+		
+//		padding: 25px 2.5%;
+		
+		color: black;
+		
+		span {
+			
+			img, svg {
+//				display: block;
+//				margin: auto;
+//				height: 30px;
+//				margin-bottom: 10px;
+//				border: 1px solid black;
+	
+			}
+			
+		}
+		
+		input {
+//			display: block;
+//			margin: auto;
+			
+			padding: 0;
+		}
+		
+		input:focus {
+			outline: none;	
+		}
+		
+		input[type=range] {
+    -webkit-appearance: none;
+    background-color: #eee;
+//    height: 5px;
+//    width:100px;
+
+	}
+		
+		input[type='range']::-ms-slider-thumb {
+		-webkit-appearance: none;
+		background-color: black;
+		width: 12px;
+		height: 12px;
+	}
+		
+	input[type="range"]::-webkit-slider-thumb {
+		-webkit-appearance: none;
+		background-color: black;
+//		width: 12px;
+//		height: 12px;
+	}
+		
+		
+	}
+	
+}
+
+.open-menu {
+		
+	position: absolute;
+	
+	bottom: 5%;
+	left: 5%;
+	width: 60%;
+	
+	z-index: 99;
+
+	img, svg {
+		display: inline-block;
+		float: left;
+		height: 40px;
+	}
+	
+	.menu-icon {
+		height: 40px;
+		width: 40px;
+	}
+	
+	.roll {
+//		padding-left: 30px;
+		margin-left: 40px;
+		height: 40px;
+		width: 40px;
+	}
+			
+}
+
+#code {
+	
+	position: absolute;
+	bottom: 5%;
+	right: 5%;
+	
+	z-index: 101;
+	
+	img, svg {
+		height: 40px;
+		width: 40px;	
+	}
+	
+	a {
+		color: transparent;	
+	}
+	
+}
+
+#code-display {
+
+	position: absolute;
+	
+	background: rgba(0,0,0,.95);
+	
+	top: 1%;
+	left: 1%;
+	right: 1%;
+	bottom: 1%;
+	
+	z-index: 100;
+	
+	.code-container {
+		
+		position: relative;
+		
+		width: 90%;
+		
+		margin: auto;
+	
+		color: white;
+		text-align: center;
+		
+	}
+	
+	.close {
+	
+		position: absolute;
+//		top: 5%;
+//		right: 5%;
+		
+//		height: 50px;
+		
+		z-index: 99;
+		
+	}
+	
+}
+
+.cube {
+
+	position: absolute;
+	top: 1%;
+	left: 1%;
+	right: 1%;
+	bottom: 1%;
+	
+}
+
+.cube1 {
+	z-index: 1	
+}
+.cube2 {
+	z-index: 2	
+}
+.cube3 {
+	z-index: 3	
+}
+.cube4 {
+	z-index: 4	
+}
+.cube5 {
+	z-index: 5	
+}
+
+.animate-attention {
+
+	animation: attention 1s infinite;
+	
+}
+
+@keyframes attention {
+
+	from { transform: none }
+	33% { transform: translateX(-10px) }
+	66% { transform: translateX(10px) }
+	to { transform: none }
+	
+}

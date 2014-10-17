@@ -1,0 +1,127 @@
+#logo {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  z-index: 11; }
+
+#logo:hover, .menu-icon:hover, .roll:hover, .close:hover {
+  transform: rotate(16deg);
+  animation-timing-function: ease-in-out; }
+
+#value .container {
+  text-align: center;
+  background: rgba(0, 0, 0, 0.9);
+  padding: 20px 10px; }
+  #value .container span {
+    color: white; }
+
+#menu {
+  position: absolute;
+  overflow: hidden;
+  z-index: 88; }
+  #menu .inline {
+    background: white; }
+  #menu form {
+    color: black; }
+    #menu form input {
+      padding: 0; }
+    #menu form input:focus {
+      outline: none; }
+    #menu form input[type=range] {
+      -webkit-appearance: none;
+      background-color: #eee; }
+    #menu form input[type='range']::-ms-slider-thumb {
+      -webkit-appearance: none;
+      background-color: black;
+      width: 12px;
+      height: 12px; }
+    #menu form input[type="range"]::-webkit-slider-thumb {
+      -webkit-appearance: none;
+      background-color: black; }
+
+.open-menu {
+  position: absolute;
+  bottom: 5%;
+  left: 5%;
+  width: 60%;
+  z-index: 99; }
+  .open-menu img, .open-menu svg {
+    display: inline-block;
+    float: left;
+    height: 40px; }
+  .open-menu .menu-icon {
+    height: 40px;
+    width: 40px; }
+  .open-menu .roll {
+    margin-left: 40px;
+    height: 40px;
+    width: 40px; }
+
+#code {
+  position: absolute;
+  bottom: 5%;
+  right: 5%;
+  z-index: 101; }
+  #code img, #code svg {
+    height: 40px;
+    width: 40px; }
+  #code a {
+    color: transparent; }
+
+#code-display {
+  position: absolute;
+  background: rgba(0, 0, 0, 0.95);
+  top: 1%;
+  left: 1%;
+  right: 1%;
+  bottom: 1%;
+  z-index: 100; }
+  #code-display .code-container {
+    position: relative;
+    width: 90%;
+    margin: auto;
+    color: white;
+    text-align: center; }
+  #code-display .close {
+    position: absolute;
+    z-index: 99; }
+
+.cube {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  right: 1%;
+  bottom: 1%; }
+
+.cube1 {
+  z-index: 1; }
+
+.cube2 {
+  z-index: 2; }
+
+.cube3 {
+  z-index: 3; }
+
+.cube4 {
+  z-index: 4; }
+
+.cube5 {
+  z-index: 5; }
+
+.animate-attention {
+  animation: attention 1s infinite; }
+
+@keyframes attention {
+  from {
+    transform: none; }
+
+  33% {
+    transform: translateX(-10px); }
+
+  66% {
+    transform: translateX(10px); }
+
+  to {
+    transform: none; } }
+
+/*# sourceMappingURL=index.css.map */
